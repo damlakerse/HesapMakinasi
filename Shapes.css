@@ -1,0 +1,122 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+} 
+body{
+    font-size: 1.2rem;
+} 
+.Calculator{
+    border:5px solid rgb(102, 102, 102);
+    border-radius: 5px;    
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;;
+    transform:translate(-50%-50);
+}
+.calculator-input{
+width:100%;
+font-size: 4rem;
+height:90px;
+border: none;
+background-color: rgb(240, 230, 222);
+color: rgb(232, 119, 44);
+text-align: right;
+padding-left: 20px;
+padding-right: 20px;
+} 
+
+button{
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem;
+    color: rgb(253, 250, 250);
+}
+
+button:hover{
+  
+    background-color:orange ;
+}
+
+.operator{
+    color:rgb(232, 119, 44);
+  
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem;
+    grid-area: 1/4;
+}
+.operator1
+{
+    color:rgb(232, 119, 44);
+    grid-area: 1/4;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem;
+    grid-area: 2/4;
+}
+.operator2{
+    color:rgb(232, 119, 44);
+    grid-area: 1/4;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem; 
+    grid-area: 3/4;
+}
+.operator3{
+    color:rgb(232, 119, 44);
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem;
+    grid-area: 4/4;
+    
+}
+.operator4{
+    color:rgb(244, 120, 38);
+    grid-area: 1/4;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 360px ;
+    border: 2px solid rgb(144, 137, 137);
+    font-size: 2.5rem;
+    grid-area: 5/3;
+}
+.equal-sign{
+    color:rgb(232, 119, 44);
+    width:390%;
+    grid-area: 5/1;
+ 
+  
+}
+.clear{
+    background-color: rgb(227, 112, 11);
+    border-color: rgb(227, 112, 11);
+    color: white;
+    grid-area: 4/3;
+
+}
+.calculator-keys{
+ display:grid;
+ grid-template-columns:repeat(4,25%) ;
+ grid: 20px;
+} 
